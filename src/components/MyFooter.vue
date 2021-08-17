@@ -59,7 +59,6 @@ export default ({
   }
   .btn{
     height: 24px;
-    line-height: 0px;
     outline:none;
     color: #fff;
     background-color: #f56c6c;

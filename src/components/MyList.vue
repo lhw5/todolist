@@ -65,7 +65,6 @@ button {
   position: absolute;
   margin-right: -15px;
   height: 24px;
-  line-height: 0px;
   top: 6px;
   right: 20px;
   display: none;
