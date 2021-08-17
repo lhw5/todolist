@@ -49,6 +49,7 @@ export default ({
   .container{
     display: flex;
     height: 25px;
+    line-height: 25px;
     padding-top: 10px;
     position: relative;
     align-items: center;
