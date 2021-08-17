@@ -60,7 +60,7 @@ export default ({
     height: inherit;
   }
   .btn{
-    height: 24px;
+    height: 25px;
     outline:none;
     color: #fff;
     background-color: #f56c6c;
