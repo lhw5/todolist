@@ -48,8 +48,8 @@ export default ({
 <style scoped>
   .container{
     display: flex;
-    height: 30px;
-    line-height: 30px;
+    height: 25px;
+    line-height: 25px;
     padding-top: 10px;
     position: relative;
     align-items: center;
