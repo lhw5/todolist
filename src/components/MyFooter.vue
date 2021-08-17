@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div >已完成{{isComplete}} / 全部{{list.length}}</div>  
+    <div>已完成{{isComplete}} / 全部{{list.length}}</div>  
     <div v-if="isComplete > 0" class="right">
       <button @click="clear" class="btn">清除已完成</button>
     </div>
@@ -48,8 +48,8 @@ export default ({
 <style scoped>
   .container{
     display: flex;
-    height: 25px;
-    line-height: 25px;
+    height: 30px;
+    line-height: 30px;
     padding-top: 10px;
     position: relative;
     align-items: center;
@@ -57,6 +57,7 @@ export default ({
   .right{
     position: absolute;
     right: 0px;
+    height: inherit;
   }
   .btn{
     height: 24px;
