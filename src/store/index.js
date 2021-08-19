@@ -31,6 +31,13 @@ export default createStore({
       state.list.splice(payload, 1)
       localStorage.setItem('list', JSON.stringify(state.list))
     },
+    //全选or取消全选
+    checkAllTodo(state,isAll){
+      state.list.forEach(todo => {
+          todo.complete = isAll
+      });
+      localStorage.setItem('list', JSON.stringify(state.list))
+    },
     //清除已完成
     clear(state, payload) {
       //把过滤之后的数组传进来

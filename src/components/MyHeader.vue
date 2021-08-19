@@ -25,16 +25,16 @@ export default ({
 
 <style scoped>
   input{
-    width: 293px;
-    height: 20px;
-    line-height: 20px;
+    width: 300px;
+    height: 25px;
+    line-height: 25px;
     border: 1px solid #dcdfe6;
-    box-sizing: content-box;
+    box-sizing: border-box;
     color: #606266;
     font-size: inherit;
     border-radius: 2px;
     margin-bottom: 10px;
-    padding-left: 5px;
+    padding-left: 10px;
     outline:none;
     transition: border-color .5s cubic-bezier(.645,.045,.355,1);
   }
